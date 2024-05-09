@@ -1,0 +1,30 @@
+.header-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 8px;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 16px;
+}
+
+.navbar ul li {
+    list-style-type: none;
+}
+
+.navbar ul li:hover, .account span:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+.account {
+    display: flex;
+    gap: 12px;
+}
+
+.logo {
+    font-family: 'Sixtyfour', sans-serif;
+}

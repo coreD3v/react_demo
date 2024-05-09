@@ -1,0 +1,91 @@
+.container {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.content-wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.content {
+    background-color: red;
+    font-size: 17px;
+    margin-right: 150px;
+}
+
+.content .title {
+    font-weight: bold;
+    font-size: 55px;
+}
+
+/* 
+.content, .slider {
+    width: 50%;
+} */
+
+/* .content .title {
+    margin-bottom: 20px;
+}
+
+.content .subtitle {
+    margin-bottom: 20px;
+} */
+
+.button-group {
+    display: flex;
+}
+
+.contact-btn, .about-btn {
+    border: none;
+    font-weight: bold;
+    color: white;
+
+}
+
+.contact-btn {
+    background-color: rgb(235, 89, 37);
+}
+
+.about-btn {
+    background-color: rgb(24, 202, 184);
+}
+
+.slider img {
+    /* width: 480px;
+    height: 270px; */
+    display: none;
+}
+
+.slider img.selected {
+    display: block;
+}
+
+.dot {
+    width: 12px;
+    height: 12px;
+    background-color: rgb(24, 202, 184);
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+
+.dot-container {
+    position: relative;
+    display: flex;
+    gap: 8px;
+    margin-bottom: 200px;
+}
+
+.dot.selected {
+    background-color: rgb(235, 89, 37);
+    width: 14px;
+    height: 14px;
+}
+.sicon{
+    width: 14px;
+    height: 14px;
+}

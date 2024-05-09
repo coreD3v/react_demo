@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 8px;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 16px;
+}
+
+.navbar ul li {
+    list-style-type: none;
+}
+
+.navbar ul li:hover, .account span:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+.account {
+    display: flex;
+    gap: 12px;
+}
+
+.logo {
+    font-family: 'Sixtyfour', sans-serif;
+}
+
+.content-wrapper {
+    display: flex;
+    justify-content: center; /* x-Axis alignment (Main axis)  */
+    align-items: center; /* y-axis */
+    flex-grow: 1;
+    gap: 64px;
+}
+
+.content, .slider {
+    width: 30%;
+}
+
+.content .title {
+    margin-bottom: 24px;
+}
+
+.content .subtitle {
+    margin-bottom: 20px;
+}
+
+.button-group {
+    display: flex;
+    gap: 24px;
+}
+
+.contact-btn, .about-btn {
+    padding: 12px 32px;
+    flex-grow: 1;
+    border: none;
+    font-weight: bold;
+    color: white;
+
+}
+
+.contact-btn {
+    background-color: rgb(235, 89, 37);
+}
+
+.about-btn {
+    background-color: rgb(24, 202, 184);
+}
+
+.slider img {
+    width: 480px;
+    height: 270px;
+    display: none;
+}
+
+.slider img.selected {
+    display: block;
+}
+
+.dot {
+    width: 12px;
+    height: 12px;
+    background-color: rgb(24, 202, 184);
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+
+.dot-container {
+    margin-top: 25px;
+    display: flex;
+    gap: 8px;   
+}
+
+.dot.selected {
+    background-color: rgb(235, 89, 37);
+    width: 14px;
+    height: 14px;
+}
+.sicon{
+    width: 14px;
+    height: 14px;
+}
